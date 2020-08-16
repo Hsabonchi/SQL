@@ -11,3 +11,6 @@ The relationships between Entity classes are as follows:
 - @OneToMany Relation
 - @OneToOne Relation
 - @ManyToMany Relation
+
+- @OneToMany Relation:In a one-to-many relationship between Table A and Table B, each row in Table A is linked to 0, 1 or many rows in Table B.
+- @ Many-To-One relation between entities: Where one entity (column or set of columns) is/are referenced with another entity (column or set of columns) which contain unique values. In relational databases these relations are applicable by using foreign key/primary key between tables.
